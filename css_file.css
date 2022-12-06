@@ -1,0 +1,63 @@
+.error-message {
+  color: red;
+}
+
+form {
+  display: table;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+label, input {
+  display: table-row;
+  padding: 5px;
+}
+
+label {
+  text-align: right;
+}
+
+input {
+  text-align: left;
+}
+
+.checkbox-group, .radio-group {
+  display: table-row;
+}
+
+.checkbox-group label, .radio-group label {
+  display: table-cell;
+  padding: 5px;
+}
+
+.slider-group {
+  display: table-row;
+}
+
+.slider-group label {
+  display: table-cell;
+  padding: 5px;
+}
+
+.slider-group input[type="range"] {
+  width: 200px;
+}
+
+.password-group {
+  display: table-row;
+}
+
+.password-group label {
+  display: table-cell;
+  padding: 5px;
+}
+
+.password-group input[type="password"] {
+  width: 200px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
