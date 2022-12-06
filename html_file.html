@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="#######-homework1.css" rel="stylesheet">
+  <script src="#######-homework1.js"></script>
+</head>
+<body>
+  <h1>Welcome to our website!</h1>
+  <p>Please register a new user below:</p>
+
+  <form onsubmit="return validateForm()">
+    <label for="first-name">First Name:</label><br>
+    <input type="text" id="first-name" name="first-name" onblur="validateFirstName()"><br>
+    <span id="first-name-error" class="error-message"></span><br>
+
+    <label for="middle-initial">Middle Initial:</label><br>
+    <input type="text" id="middle-initial" name="middle-initial" onblur="validateMiddleInitial()"><br>
+    <span id="middle-initial-error" class="error-message"></span><br>
+
+    <label for="last-name">Last Name:</label><br>
+    <input type="text" id="last-name" name="last-name" onblur="validateLastName()"><br>
+    <span id="last-name-error" class="error-message"></span><br>
+
+    <label for="dob">Date of Birth:</label><br>
+    <input type="text" id="dob" name="dob" onblur="validateDOB()"><br>
+    <span id="dob-error" class="error-message"></span><br>
+
+    <label for="ssn">Social Security Number:</label><br>
+    <input type="number" id="ssn" name="ssn" onblur="validateSSN()"><br>
+    <span id="ssn-error" class="error-message"></span><br>
+
+    <label for="address1">Address Line 1:</label><br>
+    <input type="text" id="address1" name="address1" onblur="validateAddress1()"><br>
+    <span id="address1-error" class="error-message"></span><br>
+
+    <label for="address2">Address Line 2:</label><br>
+    <input type="text" id="address2" name="address2" onblur="validateAddress2()"><br>
+    <span id="address2-error" class="error-message"></span><br>
+
+    <label for="city">City:</label><br>
+    <input type="text" id="city" name="city" onblur="validateCity()"><br>
+    <span id="city-error" class="error-message"></span><br>
+
+    <label for="state">State:</label><br>
+    <select id="state" name="state" onblur="validateState()">
+      <option value="">Select a state</option>
+      <option value="AL
