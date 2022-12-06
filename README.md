@@ -1,3 +1,7 @@
+## check the file repo for the HTML, JS, and CSS FILE
+## Pleae check for accuracy as I did this in like 10 mins probs some mistakes here and there lol
+
+
 To complete the requirements of this homework assignment, you will need to create an HTML file with a form that contains the required text boxes, check boxes, radio buttons, and a slide bar. You will also need to create an external CSS file and reference it in your HTML document using the <link> tag. You can use the CSS file to define the styles for the elements on your HTML page, such as the font, colors, and layout.
 
 In your HTML file, you can create the input fields for the user's first name, middle initial, last name, date of birth, social security number, address line 1, address line 2, city, and state using the <input> tag. You can set the type attribute to "text" for the first name, middle initial, last name, date of birth, and social security number fields, and "number" for the social security number field.
@@ -12,6 +16,4 @@ For the slide bar, you can use the <input> tag with the type attribute set to "r
 
 For the user ID and password fields, you can create input fields using the <input> tag. You can set the type attribute to "text" for the user ID field and "password" for the password fields. You can use JavaScript to validate the user ID and password fields and display warnings if the user enters invalid input.
 
-## check the file repo for the HTML, JS, and CSS FILE
-### Pleae check for accuracy as I did this in like 10 mins probs some mistakes here and there lol
 
