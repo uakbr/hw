@@ -12,5 +12,6 @@ For the slide bar, you can use the <input> tag with the type attribute set to "r
 
 For the user ID and password fields, you can create input fields using the <input> tag. You can set the type attribute to "text" for the user ID field and "password" for the password fields. You can use JavaScript to validate the user ID and password fields and display warnings if the user enters invalid input.
 
-Here is an example of how your HTML file could be structured:
+## check the file repo for the HTML, JS, and CSS FILE
+### Pleae check for accuracy as I did this in like 10 mins probs some mistakes here and there lol
 
